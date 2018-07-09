@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'privacy.hbltsl.module'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = JavaVersion.VERSION_1_10
+targetCompatibility = JavaVersion.VERSION_1_10
+
+ext.moduleName = 'privacy.hbltsl.module.moduleA'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
